@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2026 Zhaopeng Wilson Wu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+THIRD-PARTY CODE
+
+The files under dir/vendor/ are vendored from the reference Deep Imbalanced Regression
+implementation, YyzHarry/imbalanced-regression, and remain under their own MIT licence,
+Copyright (c) 2021 Yuzhe Yang. That notice is preserved at dir/vendor/LICENSE, and every edit
+made to those files is listed in dir/vendor/PATCHES.md. The copyright above covers only the
+rest of this repository.
+
+DATA
+
+Files under data/ that derive from the SkyFinder dataset, including labels_cached.csv
+and the splits_*.csv files, are dataset derivatives and are NOT covered by the MIT grant above.
+SkyFinder is distributed under CC BY 4.0, DOI 10.5281/zenodo.5884485. The label and split files
+here are modified subsets of that dataset: twelve of its cameras, with undecodable frames removed
+and temperature labels joined from the released metadata table. Attribution and reuse of those
+files follow CC BY 4.0 and the dataset's own citation request.

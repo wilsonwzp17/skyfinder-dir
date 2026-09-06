@@ -1,0 +1,5 @@
+# Versions this was run under, on Python 3.9.23.
+torch==2.8.0
+numpy==1.26.4
+scipy==1.12.0
+pillow==11.3.0

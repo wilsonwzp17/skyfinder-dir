@@ -1,0 +1,14 @@
+# data: fetched by data/download.py, not redistributed
+data/raw/
+data/images/
+data/cache_112.npy
+data/cache_112_index.csv
+data/complete_table_with_mcr.csv
+data/labels.csv
+
+# environments and caches
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+*.partial
